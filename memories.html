@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Beautiful Memories</title>
+    <link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Floating Background Particles -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <p class="typewriter texthappy" id="typewriter">Happy Birthday, Baby! 💕</p>
+            <p class="subtitle fade-in">Today is all about celebrating you and the joy you bring to my life</p>
+            <div class="floating-hearts">
+                <div class="heart">❤️</div>
+                <div class="heart">💖</div>
+                <div class="heart">💕</div>
+                <div class="heart">💗</div>
+                <div class="heart">❤️</div>
+            </div>
+            <button class="cta-button" onclick="scrollToSection('gallery')">
+                Start the Celebration 🎉
+            </button>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery Section -->
+    <section class="gallery-section" id="gallery">
+        <div class="container">
+            <h2 class="section-title">Our Beautiful Memories</h2>
+            <div class="gallery-grid">
+                <div class="photo-card" data-aos="fade-up" data-delay="100">
+                    <div class="photo-container">
+                        <img src="photos/photo1.jpeg"
+                            alt="Beautiful moment">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">17 July 2024
+            Our first video call 💕</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-card" data-aos="fade-up" data-delay="200">
+                    <div class="photo-container">
+                        <img src="photos/photo2.jpeg"
+                            alt="Sweet memory">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">14 August 2024
+            Our first time... 🥹</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-card" data-aos="fade-up" data-delay="300">
+                    <div class="photo-container">
+                        <img src="photos/photo3.jpeg"
+                            alt="Happy times">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">5 Nov 2024
+            An official visit to my home❤️</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-card" data-aos="fade-up" data-delay="400">
+                    <div class="photo-container">
+                        <img src="photos/photo4.jpeg"
+                            alt="Love moment">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">8 Dec 2024
+            Second official visit to Bhavnagar❤️</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-card" data-aos="fade-up" data-delay="500">
+                    <div class="photo-container">
+                        <img src="photos/photo5.jpeg"
+                            alt="Beautiful day">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">19 Feb 2025
+            My  secretly Mumbai visit❤️</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-card" data-aos="fade-up" data-delay="500">
+                    <div class="photo-container">
+                        <img src="photos/photo6.jpeg"
+                            alt="Beautiful day">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">4 May 2025
+            THE DAY OUR LOVE BECOME OFFICIAL❤️</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-card" data-aos="fade-up" data-delay="500">
+                    <div class="photo-container">
+                        <img src="photos/photo7.jpeg"
+                            alt="Beautiful day">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">9 June 2025
+            Visit to Sasural❤️</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-card" data-aos="fade-up" data-delay="500">
+                    <div class="photo-container">
+                        <img src="photos/photo8.jpeg"
+                            alt="Beautiful day">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">26 Oct 2025
+            Baglami Cafe... First Date🥹</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="photo-card" data-aos="fade-up" data-delay="500">
+                    <div class="photo-container">
+                        <img src="photos/photo9.jpeg"
+                            alt="Beautiful day">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">27 Oct 2025
+            Bowling with family❤️</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-card" data-aos="fade-up" data-delay="500">
+                    <div class="photo-container">
+                        <img src="photos/photo10.jpeg"
+                            alt="Beautiful day">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">10 Dec 2025<br>
+            Ahmedabad❤️ This day holds many Memories with very few pictures🥹</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+<div class="finalmsg">
+
+    <a href="message.html">
+        <button>Final Message 💌</button>
+    </a>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>

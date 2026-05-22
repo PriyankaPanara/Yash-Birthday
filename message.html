@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Message</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  
+    
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Header with Cake -->
+        <header class="birthday-header">
+            <div class="cake-container">
+                <div class="birthday-cake">
+                    <div class="cake-base"></div>
+                    <div class="cake-middle"></div>
+                    <div class="cake-top"></div>
+                    <div class="cake-candle">
+                        <div class="candle-flame"></div>
+                    </div>
+                    <div class="cake-decoration"></div>
+                    <div class="cake-sparkle"></div>
+                </div>
+            </div>
+            
+            <div class="header-text">
+                <h1 class="birthday-title">Happy Birthday!</h1>
+                <p class="birthday-subtitle">To the most amazing person in my life</p>
+            </div>
+            
+            <div class="header-hearts">
+                <span class="pulse-heart">❤️</span>
+                <span class="pulse-heart">💖</span>
+                <span class="pulse-heart">💕</span>
+            </div>
+        </header>
+        
+        <!-- Birthday Message Section -->
+        <section class="message-section">
+            <div class="message-card">
+                <div class="message-header">
+                    <h2 class="message-title">A Special Message Just For You</h2>
+                    <div class="message-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                </div>
+                
+                <div class="message-content">
+                    <div class="message-bubble fade-in">
+                        <p class="message-text">
+                            Happy Birthday to the most beautiful soul in my life. 
+                            Thank you for loving me, supporting me, and understanding me.
+                        </p>
+                    </div>
+                    
+                    <div class="message-bubble fade-in delay-1">
+                        <p class="message-text">
+                            You annoy and roast me every single day but somewhere between the 
+                            teasing and madness, you became my best friend. 🥰🧿❤️
+                            And trust me… I love you way more than you'll ever realize. ❤️🥺
+                        </p>
+                    </div>
+                    
+                    <div class="message-bubble fade-in delay-2">
+                        <p class="message-text">
+                            You bring so much joy, laughter, and love into my life. 
+                            Every moment with you is a treasure, and I'm so grateful 
+                            to have you by my side.
+                        </p>
+                    </div>
+                    
+                    <div class="message-signature fade-in delay-3">
+                        <p>
+                            Happy Birthday, my love! Here's to many more years of 
+                            laughter, love, and beautiful memories together. 💕
+                        </p>
+                        <div class="signature-line">
+                            <span>Forever yours</span>
+                            <i class="fas fa-heart signature-heart"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="message-footer">
+                    <div class="interactive-hearts">
+                        <button class="heart-btn" id="heartBtn">
+    <i class="far fa-heart" id="heartIcon"></i>
+    <span class="heart-count" id="heartCount">0</span>
+</button>
+
+                        <p class="click-instruction">Click the heart if you love this message!</p>
+                    </div>
+                    
+                    <!-- <div class="celebration-trigger">
+                        <button class="celebrate-btn" id="celebrateBtn">
+                            <i class="fas fa-birthday-cake"></i>
+                            Start Celebration!
+                        </button>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+        
+        <!-- Celebration Area (Hidden Initially) -->
+        <div class="celebration-area hidden" id="celebrationArea">
+            <canvas id="confettiCanvas"></canvas>
+            <div class="celebration-text">
+                <h2 class="celebration-title">Let's Celebrate!</h2>
+                <p class="celebration-message">Wishing you the happiest birthday ever! 🎉🎂</p>
+                <div class="balloons-container">
+                    <div class="balloon balloon-1">🎈</div>
+                    <div class="balloon balloon-2">🎈</div>
+                    <div class="balloon balloon-3">🎈</div>
+                    <div class="balloon balloon-4">🎈</div>
+                    <div class="balloon balloon-5">🎈</div>
+                </div>
+                <button class="reset-btn" id="resetBtn">
+                    <i class="fas fa-redo"></i>
+                    Show Again
+                </button>
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <footer class="birthday-footer">
+            <p>Made with <i class="fas fa-heart footer-heart"></i> for the most special person</p>
+            <p class="footer-date">Celebrating you today and always</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
